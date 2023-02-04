@@ -1,3 +1,3 @@
 git add .
-git commit -m %l
+git commit -m "fdasfads"
 git push origin VGP-455
