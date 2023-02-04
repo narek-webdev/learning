@@ -1,3 +1,3 @@
 git add .
-git commit -m "First commit"
+git commit -m %l
 git push origin VGP-455
