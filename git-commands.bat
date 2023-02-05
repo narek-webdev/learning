@@ -1,5 +1,5 @@
 @echo off
-set commitName="%~n0"
+set commitName="My commit name"
 set prTitle="Pull request name"
 
 git add .
