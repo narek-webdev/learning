@@ -1,4 +1,4 @@
-@echo off
+@REM @echo off
 git add .
 git commit -m "%~n0"
 git push
