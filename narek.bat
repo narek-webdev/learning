@@ -1,9 +1,7 @@
 @echo off
 set commitName="%~n0"
-echo %commitName%
-pause
 
 git add .
-git commit -m "%~n0"
+git commit -m %commitName%
 git push
-gh pr create -t "%~n0" -b ""
+gh pr create -t %commitName% -b ""
